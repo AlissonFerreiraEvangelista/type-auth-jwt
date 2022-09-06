@@ -1,0 +1,13 @@
+@apiurl = http://localhost:3000
+
+### 
+GET  {{apiurl}}/user/all
+
+###
+POST {{apiurl}}/auth/login
+Content-Type: application/json
+
+{
+    "email":"alisson@gmail.com",
+    "password":"aliss@25Udsy"
+}
