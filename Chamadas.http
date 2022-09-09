@@ -11,3 +11,13 @@ Content-Type: application/json
     "email":"alisson@gmail.com",
     "password":"aliss@25Udsy"
 }
+
+###
+POST {{apiurl}}/user
+Content-Type: application/json
+
+{
+    "name" :"alice",
+    "email":"alice@gmail.com",
+    "password":"alice@25Udsy"
+}
